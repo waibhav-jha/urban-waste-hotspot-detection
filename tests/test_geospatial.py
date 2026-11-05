@@ -54,3 +54,4 @@ def test_export_geojson_empty(tmp_path: Path):
         data = json.load(f)
     assert data["type"] == "FeatureCollection"
     assert len(data["features"]) == 0
+

@@ -46,3 +46,4 @@ def test_cluster_hotspots_empty():
     assert len(clustered) == 0
     assert len(summary) == 0
     assert "cluster_id" in clustered.columns
+

@@ -47,3 +47,4 @@ def test_tile_image_saving(tmp_path: Path):
     assert len(records) == 4
     for r in records:
         assert Path(r["tile_path"]).exists()
+
